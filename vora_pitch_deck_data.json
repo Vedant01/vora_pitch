@@ -1,0 +1,232 @@
+{
+  "company_info": {
+    "name": "Vora",
+    "tagline": "AI-Powered Career Counselor & Digital Twin",
+    "mission": "Revolutionizing professional development through intelligent career guidance",
+    "founded": "2024",
+    "stage": "Seed"
+  },
+  "market_size": {
+    "tam": {
+      "value_inr": "\u20b96,326 crores",
+      "value_usd": "$0.8B",
+      "year": "2024",
+      "projected_2029_inr": "\u20b912,724 crores",
+      "projected_2029_usd": "$1.5B",
+      "cagr": "15%"
+    },
+    "sam": {
+      "value_inr": "\u20b9875 crores",
+      "value_usd": "$105M",
+      "target_users": "2.5M professionals",
+      "penetration": "10%"
+    },
+    "som": {
+      "year_1_inr": "\u20b97 crores",
+      "year_3_inr": "\u20b922 crores",
+      "year_5_inr": "\u20b944 crores",
+      "year_5_usd": "$5.3M",
+      "target_penetration": "5%"
+    }
+  },
+  "market_opportunity": {
+    "pain_points": [
+      "400M Indians need career guidance",
+      "Only 10K counselors vs 1.4M needed (139x shortage)",
+      "90% schools lack career counselors",
+      "70% students confused about careers",
+      "Limited scalable AI solutions"
+    ],
+    "market_trends": [
+      "27.6% CAGR AI market growth",
+      "14% CAGR online coaching growth",
+      "15% CAGR career counseling growth",
+      "$14.4B startup funding in 2024",
+      "28% of VC funding goes to AI"
+    ],
+    "demographics": [
+      "900M+ internet users",
+      "750M+ smartphone users",
+      "50M+ English-speaking professionals",
+      "25M target professional segment"
+    ]
+  },
+  "product_features": [
+    {
+      "title": "AI-Powered Digital Twin",
+      "description": "Creates virtual representation of professional identity",
+      "icon": "\ud83e\udd16"
+    },
+    {
+      "title": "Comprehensive Gamification",
+      "description": "Achievement system with XP, levels, badges, and rewards",
+      "icon": "\ud83c\udfae"
+    },
+    {
+      "title": "Social Accountability",
+      "description": "Peer challenges, mentorship, and community building",
+      "icon": "\ud83d\udc65"
+    },
+    {
+      "title": "Predictive Analytics",
+      "description": "Career trajectory insights and market trend analysis",
+      "icon": "\ud83d\udcca"
+    },
+    {
+      "title": "Personalized Coaching",
+      "description": "GPT-4 powered conversations and recommendations",
+      "icon": "\ud83d\udcac"
+    },
+    {
+      "title": "Multi-Platform Integration",
+      "description": "Seamless connection with job boards and learning platforms",
+      "icon": "\ud83d\udd17"
+    }
+  ],
+  "competitive_advantage": [
+    "First comprehensive AI + Gamification + Social platform",
+    "Advanced digital twin technology",
+    "Scalable freemium business model",
+    "Multi-language support for Indian market",
+    "Enterprise integration capabilities",
+    "Continuous learning from user behavior"
+  ],
+  "competition": [
+    {
+      "name": "Coach by CareerVillage",
+      "users": "20K users",
+      "limitation": "Basic AI, no gamification, limited social features"
+    },
+    {
+      "name": "Careerflow",
+      "users": "Unknown",
+      "limitation": "Job tracking only, no comprehensive coaching"
+    },
+    {
+      "name": "Traditional Counseling",
+      "users": "10K counselors",
+      "limitation": "Offline, expensive, not scalable"
+    },
+    {
+      "name": "Habitica",
+      "users": "4M+ users",
+      "limitation": "Gamification only, no career focus"
+    }
+  ],
+  "business_model": {
+    "model_type": "Freemium SaaS",
+    "pricing_tiers": [
+      {
+        "tier": "Free",
+        "price": "\u20b90/month",
+        "features": [
+          "Basic AI coaching",
+          "Limited gamification",
+          "Personal progress tracking"
+        ]
+      },
+      {
+        "tier": "Premium",
+        "price": "\u20b9299/month",
+        "features": [
+          "Advanced digital twin",
+          "Full gamification",
+          "Analytics dashboard"
+        ]
+      },
+      {
+        "tier": "Pro",
+        "price": "\u20b9499/month",
+        "features": [
+          "Mentorship matching",
+          "Exclusive content",
+          "Predictive insights"
+        ]
+      }
+    ],
+    "revenue_streams": [
+      "Subscription fees (Primary)",
+      "Enterprise licensing",
+      "Partnership commissions",
+      "Premium content"
+    ]
+  },
+  "financial_projections": {
+    "user_growth": [
+      {
+        "year": 1,
+        "users": "20K",
+        "revenue_inr": "\u20b97 crores"
+      },
+      {
+        "year": 2,
+        "users": "45K",
+        "revenue_inr": "\u20b915 crores"
+      },
+      {
+        "year": 3,
+        "users": "63K",
+        "revenue_inr": "\u20b922 crores"
+      },
+      {
+        "year": 4,
+        "users": "94K",
+        "revenue_inr": "\u20b933 crores"
+      },
+      {
+        "year": 5,
+        "users": "125K",
+        "revenue_inr": "\u20b944 crores"
+      }
+    ],
+    "metrics": {
+      "arpu": "\u20b93,500/year",
+      "customer_acquisition_cost": "\u20b9500",
+      "lifetime_value": "\u20b912,000",
+      "churn_rate": "15% annually"
+    }
+  },
+  "funding_ask": {
+    "amount_inr": "\u20b925 crores",
+    "amount_usd": "$3M",
+    "use_of_funds": [
+      {
+        "category": "Product Development",
+        "percentage": 40,
+        "amount": "\u20b910 crores"
+      },
+      {
+        "category": "Marketing & User Acquisition",
+        "percentage": 30,
+        "amount": "\u20b97.5 crores"
+      },
+      {
+        "category": "Team Expansion",
+        "percentage": 20,
+        "amount": "\u20b95 crores"
+      },
+      {
+        "category": "Operations & Infrastructure",
+        "percentage": 10,
+        "amount": "\u20b92.5 crores"
+      }
+    ]
+  },
+  "team": [
+    {
+      "role": "CEO & Co-Founder",
+      "background": "Ex-Google AI, Stanford MBA",
+      "expertise": "AI/ML, Product Strategy"
+    },
+    {
+      "role": "CTO & Co-Founder",
+      "background": "Ex-Microsoft, IIT Delhi",
+      "expertise": "Tech Architecture, Digital Twins"
+    },
+    {
+      "role": "Head of Product",
+      "background": "Ex-Byju's, Design Thinking",
+      "expertise": "EdTech, Gamification"
+    }
+  ]
+}
