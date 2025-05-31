@@ -215,18 +215,18 @@
   "team": [
     {
       "role": "CEO & Co-Founder",
-      "background": "Ex-Google AI, Stanford MBA",
+      "background": "Manipal Institute of Technology",
       "expertise": "AI/ML, Product Strategy"
     },
     {
-      "role": "CTO & Co-Founder",
-      "background": "Ex-Microsoft, IIT Delhi",
-      "expertise": "Tech Architecture, Digital Twins"
+      "role": "COO & Co-Founder",
+      "background": "St. Joseph's University",
+      "expertise": "Sales, Operations"
     },
     {
-      "role": "Head of Product",
-      "background": "Ex-Byju's, Design Thinking",
-      "expertise": "EdTech, Gamification"
+      "role": "Advisor",
+      "background": "Ex-MindTree, SakSoft",
+      "expertise": "CRO, IT Consultant"
     }
   ]
 }
