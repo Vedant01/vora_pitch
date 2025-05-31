@@ -58,7 +58,7 @@ class PitchDeck {
 
     addHoverEffects() {
         // Stat cards hover animation
-        const statCards = document.querySelectorAll('.stat-card, .feature-card, .team-card, .market-card');
+        const statCards = document.querySelectorAll('.stat-card, .feature-card, .team-card, .market-card, .usp-card');
         statCards.forEach(card => {
             card.addEventListener('mouseenter', () => {
                 this.animateCardEntry(card);
@@ -227,11 +227,17 @@ class PitchDeck {
             case 5:
                 this.animateFeaturesSlide(currentSlideElement);
                 break;
+            case 6:
+                this.animateUSPSlide(currentSlideElement);
+                break;
             case 8:
                 this.animateChartsSlide(currentSlideElement);
                 break;
             case 9:
                 this.animateFundingSlide(currentSlideElement);
+                break;
+            case 10:
+                this.animateTeamSlide(currentSlideElement);
                 break;
             default:
                 this.animateGenericSlide(currentSlideElement);
@@ -241,7 +247,8 @@ class PitchDeck {
     animateTitleSlide(slide) {
         const companyName = slide.querySelector('.company-name');
         const tagline = slide.querySelector('.tagline');
-        const subtitle = slide.querySelector('.title-subtitle');
+        const subtitle = slide.querySelector('.subtitle');
+        const titleSubtitle = slide.querySelector('.title-subtitle');
         
         setTimeout(() => {
             if (companyName) {
@@ -258,6 +265,12 @@ class PitchDeck {
         setTimeout(() => {
             if (subtitle) {
                 subtitle.style.animation = 'fadeInUp 1s ease-out';
+            }
+        }, 800);
+        
+        setTimeout(() => {
+            if (titleSubtitle) {
+                titleSubtitle.style.animation = 'fadeInUp 1s ease-out';
             }
         }, 1000);
     }
@@ -288,6 +301,15 @@ class PitchDeck {
             setTimeout(() => {
                 card.style.animation = 'fadeInUp 0.6s ease-out';
             }, index * 150);
+        });
+    }
+
+    animateUSPSlide(slide) {
+        const uspCards = slide.querySelectorAll('.usp-card');
+        uspCards.forEach((card, index) => {
+            setTimeout(() => {
+                card.style.animation = 'fadeInUp 0.6s ease-out';
+            }, index * 200);
         });
     }
 
@@ -322,6 +344,15 @@ class PitchDeck {
         if (fundingAmount) {
             this.animateNumber(fundingAmount);
         }
+    }
+
+    animateTeamSlide(slide) {
+        const teamCards = slide.querySelectorAll('.team-card');
+        teamCards.forEach((card, index) => {
+            setTimeout(() => {
+                card.style.animation = 'fadeInUp 0.6s ease-out';
+            }, index * 300);
+        });
     }
 
     animateGenericSlide(slide) {
@@ -412,6 +443,16 @@ class PitchDeck {
                         transform: scale(1.05);
                         filter: brightness(1.2);
                     }
+                }
+                
+                .usp-card:hover {
+                    animation: cardGlow 0.5s ease-out;
+                }
+                
+                @keyframes cardGlow {
+                    0% { box-shadow: 0 0 5px rgba(255, 107, 107, 0.3); }
+                    50% { box-shadow: 0 0 25px rgba(255, 107, 107, 0.6); }
+                    100% { box-shadow: 0 15px 35px rgba(255, 107, 107, 0.2); }
                 }
             `;
             document.head.appendChild(style);
